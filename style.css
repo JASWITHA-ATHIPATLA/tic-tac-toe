@@ -45,3 +45,61 @@ body{
 .hide{
  display: none;
 }
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .game {
+    height: 80vmin;
+    width: 80vmin;
+    gap: 2vmin;
+  }
+
+  .box {
+    height: 22vmin;
+    width: 22vmin;
+    font-size: 10vmin;
+  }
+
+  #reset {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+
+  .msg-container h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* 📱 Very small devices (phones under 480px width) */
+@media (max-width: 480px) {
+  body {
+    background-color: rgb(180, 250, 190);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .game {
+    height: 90vmin;
+    width: 90vmin;
+    gap: 3vmin;
+  }
+
+  .box {
+    height: 25vmin;
+    width: 25vmin;
+    font-size: 12vmin;
+  }
+
+  #reset {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .msg-container h1 {
+    font-size: 1.2rem;
+  }
+}
